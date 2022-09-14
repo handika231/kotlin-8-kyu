@@ -1,7 +1,6 @@
 fun main() {
-    val name: String = "Hello"
-    val result = name[0]
-    println(result)
+
+    val name: () -> String = { "Kotlin" }
 }
 
 
